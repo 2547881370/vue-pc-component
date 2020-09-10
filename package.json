@@ -67,7 +67,6 @@
     "less": "^3.11.3",
     "less-loader": "^6.1.1",
     "lint-staged": "^10.2.11",
-    "postcss-px-to-viewport": "^1.1.1",
     "postcss-pxtorem": "^5.1.1",
     "prettier": "^1.19.1",
     "stylelint": "^13.6.0",
