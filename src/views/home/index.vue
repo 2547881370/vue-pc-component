@@ -13,7 +13,7 @@
         <el-button type="primary" @click="$_loadData">
           主要按钮
         </el-button>
-        <el-button type="success">
+        <el-button type="success" @click="$_handleUseDecorator">
           成功按钮
         </el-button>
         <el-button type="info">
@@ -33,7 +33,7 @@
 <script>
 import { Row, Col, Button } from 'element-ui'
 // 使用装饰器
-// import { confirm } from '@/decorator'
+import { confirm } from '@/decorator'
 
 // 使用日期工具类
 import { format, DATE_FMT } from '@/utils/date'
@@ -51,7 +51,7 @@ export default {
   },
   created() {},
   methods: {
-    // @confirm('这是通过装饰器添加的确认信息', '提示')
+    @confirm('这是通过装饰器添加的确认信息', '提示')
     $_handleUseDecorator() {
       console.log(`
         你还可以使用
