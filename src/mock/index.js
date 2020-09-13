@@ -1,14 +1,13 @@
 /*
- * @Author: 子君
+ * @Author: x
  * @Date: 2020-07-08 16:12:32
- * @LastEditors: 子君
+ * @LastEditors: x
  * @LastEditTime: 2020-07-17 12:58:37
  * @Description: mock接口主入口文件
  * @FilePath: \vue-base\src\mock\index.js
  */
 
 /**
- * 对于mock数据，作者一般喜欢使用yapi接口平台
  * 如果某个接口需要使用mock，在modules里面添加接口地址即可，否则走真实接口，这样可以有效的切换
  * 单个接口的数据来源
  *

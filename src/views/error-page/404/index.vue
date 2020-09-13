@@ -1,7 +1,7 @@
 <!--
- * @Author: 子君
+ * @Author: x
  * @Date: 2020-07-17 10:34:35
- * @LastEditors: 子君
+ * @LastEditors: x
  * @LastEditTime: 2020-07-17 10:35:20
  * @Description: 404页面
  * @FilePath: \vue-base\src\views\error-page\404\index.vue

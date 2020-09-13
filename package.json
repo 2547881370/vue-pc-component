@@ -2,15 +2,9 @@
   "name": "vue-vant-base",
   "version": "0.1.0",
   "private": true,
-  "description": "这个项目是将一些基础配置比如eslint,移动端适配等进行了封装，开发人员只需fork就可直接开箱即用，不用再做额外的配置",
-  "author": {
-    "name": "子君",
-    "email": "1451965647@qq.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/snowzijun/vue-vant-base"
-  },
+  "description": "描述",
+
+ 
   "license": "MIT",
   "engines": {
     "node": ">= 10.16"
