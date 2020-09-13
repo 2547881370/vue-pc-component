@@ -57,10 +57,11 @@ export default {
     async $_loadData() {
       const loading = this.$loading()
       try {
-        await getDemoData({
+        let { data } = await getDemoData({
           user_name: 'lalalal2414214',
           user_pwd: '12312414124'
         })
+        console.log(data, 999)
       } catch (error) {
         console.error(error)
       } finally {

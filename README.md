@@ -99,7 +99,30 @@ git config --global core.autocrlf input
 
 
 
-
+#### 配置vscode 自动格式化代码
+```shell
+"eslint.enable":true,
+"eslint.options": {
+  "extensions":[
+    ".js",
+    ".vue",
+    ".ts",
+    ".tsx"
+  ]
+ },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "css.validate": true,
+  "scss.validate": true,
+  "less.validate": true,
+  "editor.codeActionsOnSave": {
+     "source.fixAll": true
+  },
+```
 
 
 
