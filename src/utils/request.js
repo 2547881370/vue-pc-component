@@ -1,15 +1,20 @@
 import axios from 'axios'
 let mockMatch = undefined
-// 正式环境不需要使用mock
-if (process.env.NODE_ENV === 'development') {
-  mockMatch = require('@/mock').default
-}
 
 // TODO: 请求基础路径，根据项目进行配置,并添加代理
-const baseURL = '/api'
+// const baseURL = '/api'
+let baseURL = undefined
 
 // mock请求代理
 const mockURL = '/mock'
+
+// 正式环境不需要使用mock
+if (process.env.NODE_ENV === 'development') {
+  mockMatch = require('@/mock').default
+  baseURL = 'http://127.0.0.1:7001'
+} else {
+  baseURL = 'http://http://47.92.125.30:18200'
+}
 
 const instance = axios.create({
   baseURL,

@@ -3,8 +3,8 @@ const CompressionWebpackPlugin = require('compression-webpack-plugin')
 const isProd = process.env.NODE_ENV === 'production'
 
 // 开发模式代理地址 TODO: 按需修改
-const DEV_URL = process.env.SERVICESURL
-
+const DEV_URL = process.env.VUE_APP_URL
+console.log(typeof DEV_URL, DEV_URL, 999999)
 // mock模式代理地址,为了方便演示，这里使用了fastmock线上服务，建议使用yapi,可以搭建私服， TODO: 按需修改
 const MOCK_URL =
   'https://www.fastmock.site/mock/52683c53c56c5c59bc1e46d24a3550b6/zijun'

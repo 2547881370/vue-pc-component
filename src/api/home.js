@@ -7,10 +7,10 @@
  * @FilePath: \vue-base\src\api\home.js
  */
 
-import { get } from '@/utils/request'
+import { post } from '@/utils/request'
 
 export const getDemoData = (data = {}) => {
-  return get('home/demo/api', data)
+  return post('user/login', data)
   // return new Promise(resolve => {
   //   setTimeout(() => {
   //     resolve({

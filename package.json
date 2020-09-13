@@ -10,10 +10,7 @@
     "node": ">= 10.16"
   },
   "keywords": [
-    "Vue",
-    "Vant",
-    "开箱即用",
-    "前端框架"
+    "Vue"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
